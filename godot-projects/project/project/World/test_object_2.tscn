@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cp7kny560r5ur"]
+
+[ext_resource type="Texture2D" uid="uid://dlakea4nmgk41" path="res://World/Sprites/polina angry1.png" id="1_fit3o"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jkocf"]
+size = Vector2(520, 784.615)
+
+[node name="TestObject2" type="StaticBody2D"]
+
+[node name="PolinaAngry1" type="Sprite2D" parent="."]
+scale = Vector2(0.1, 0.065)
+texture = ExtResource("1_fit3o")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, 5.5)
+scale = Vector2(0.1, 0.065)
+shape = SubResource("RectangleShape2D_jkocf")
