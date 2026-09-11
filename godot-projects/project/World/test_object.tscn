@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cl6pixjs6n7ys"]
+
+[ext_resource type="Texture2D" uid="uid://dlakea4nmgk41" path="res://World/Sprites/polina angry1.png" id="1_nl4tv"]
+
+[node name="TestObject" type="StaticBody2D"]
+
+[node name="PolinaAngry1" type="Sprite2D" parent="."]
+scale = Vector2(0.1, 0.065)
+texture = ExtResource("1_nl4tv")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-14, 31, 17, 31, 14, 24, 10, 18, 10, 13, 11, 11, 14, 18, 14, 22, 18, 27, 21, 28, 25, 29, 28, 28, 25, 26, 22, 25, 18, 15, 17, 12, 16, 4, 12, 0, 6, 0, 5, -2, 13, -4, 13, -10, 16, -8, 18, -8, 15, -11, 17, -13, 20, -10, 20, -13, 15, -16, 10, -19, 4, -19, -2, -20, -8, -18, -9, -18, -11, -15, -14, -12, -16, -10, -14, -11, -13, -9, -15, -6, -16, -4, -11, -8, -11, -5, -11, -2, -8, -1, -4, -1, -1, -1, -4, 0, -7, 1, -10, 1, -12, 3, -12, 10, -14, 18, -17, 22, -19, 25, -23, 26, -24, 28, -21, 29, -17, 29, -15, 28, -13, 27, -7, 13, -6, 16, -8, 20, -9, 22, -11, 25, -12, 28)
